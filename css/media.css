@@ -20,6 +20,14 @@
     .container {
         padding: 0 48px;
     }
+    .partner-list {
+
+         margin-bottom: 0;
+    }
+    .partner-list__item {
+        margin-bottom: 46px;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -57,7 +65,6 @@
     }
     .partner-list{
         justify-content: space-between;
-        margin-bottom: 36px;
     }
     .partners-title{
         margin-bottom: 36px;
@@ -71,11 +78,13 @@
     }
     .partner-list{
         width: 100%;
+        margin-bottom: 6px;
     }
     .main-nav__buttons {
 
         flex-basis: 20%;
         order: 2;
     }
+
 
 }
