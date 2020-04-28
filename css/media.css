@@ -5,6 +5,9 @@
     .partner-list__item:nth-child(4){
         order: 3;
     }
+    .partner-list{
+        width: 492px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -13,12 +16,20 @@
     }
 
 }
+@media (min-width: 768px) and (max-width: 942px){
+    .container {
+        padding: 0 48px;
+    }
+}
+
 @media (min-width: 768px) {
+
     .main-header{
         background-image: linear-gradient(rgba(10, 5, 0, 0.25), rgba(10, 5, 0, 0.25)), url("../img/bcgt.jpg");
         padding-top: 40px;
         padding-bottom: 234px;
     }
+
 
     .main-nav {
         justify-content: space-between;
@@ -35,6 +46,10 @@
         width: 510px;
         margin-bottom: 30px;
     }
+    .primary-link{
+        width: auto;
+    }
+
     .primary-title-description{
         font-size: 24px;
         width: 100%;
@@ -42,7 +57,7 @@
     }
     .partner-list{
         justify-content: space-between;
-        margin-bottom: 35px;
+        margin-bottom: 36px;
     }
     .partners-title{
         margin-bottom: 36px;
@@ -55,7 +70,12 @@
 
     }
     .partner-list{
-        max-width: none;
+        width: 100%;
+    }
+    .main-nav__buttons {
+
+        flex-basis: 20%;
+        order: 2;
     }
 
 }
