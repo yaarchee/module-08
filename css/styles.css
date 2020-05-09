@@ -170,6 +170,8 @@ p, ul, h1, h2, h3, h4{
 }
 .partner-list__logo img{
     border-radius: 50%;
+    width: 121px;
+    height: 121px;
 }
 
 .partner-list__logo::after{
