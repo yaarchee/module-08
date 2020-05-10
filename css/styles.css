@@ -42,11 +42,13 @@ p, ul, h1, h2, h3, h4{
 }
 
 .main-header{
+    background-image: linear-gradient(rgba(10, 5, 0, 0.25), rgba(10, 5, 0, 0.25)), url("../img/bcgm.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 20px;
     padding-bottom: 136px;
+
 }
 .main-nav{
     display: flex;
